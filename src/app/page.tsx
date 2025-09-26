@@ -1,7 +1,5 @@
 // app/page.tsx
 
-import Head from "next/head";
-import { Metadata } from "next";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -10,6 +8,7 @@ import Qualification from "@/components/Qualification";
 import Services from "@/components/Services";
 import ContactUs from "@/components/ContactUs";
 import StarSection from "@/components/StarSection";
+import CutomerReview from "@/components/CutomerReview";
 
 // export const metadata: Metadata = {
 //   title: "Pingua Mahotsav 2025 | Odisha's Famous Village Festival",
@@ -107,8 +106,8 @@ export default function Home() {
         <About />
         <Qualification />
         <Services />
-
         <StarSection />
+        <CutomerReview />
         <ContactUs />
         <Footer />
       </div>

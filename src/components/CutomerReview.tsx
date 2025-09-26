@@ -1,4 +1,5 @@
 import { CheckCircle, Quote, Star } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const CutomerReview = () => {
@@ -67,9 +68,11 @@ const CutomerReview = () => {
               className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100 hover:shadow-2xl transition-all"
             >
               <div className="flex items-start space-x-4 mb-6">
-                <img
+                <Image
                   src={review.image}
                   alt={review.name}
+                  width={64}
+                  height={64}
                   className="w-16 h-16 rounded-full object-cover border-4 border-blue-100"
                 />
                 <div className="flex-1">
@@ -95,7 +98,7 @@ const CutomerReview = () => {
               <div className="relative">
                 <Quote className="absolute -top-2 -left-2 w-8 h-8 text-blue-200" />
                 <p className="text-gray-700 leading-relaxed pl-6 italic">
-                  "{review.review}"
+                  {`"${review.review}"`}
                 </p>
               </div>
 

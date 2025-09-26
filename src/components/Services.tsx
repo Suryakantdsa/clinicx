@@ -1,4 +1,5 @@
 import { ActivityIcon, Bone, Brain, Heart, Shield, Users } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const Services = () => {
@@ -18,8 +19,10 @@ const Services = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="group bg-gradient-to-br from-white to-blue-50 p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 border border-gray-100">
             <div className="relative mb-6">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop"
+                width={120}
+                height={120}
                 alt="Computer Navigation Surgery"
                 className="w-full h-32 object-cover rounded-xl"
               />
@@ -37,9 +40,11 @@ const Services = () => {
 
           <div className="group bg-gradient-to-br from-white to-teal-50 p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 border border-gray-100">
             <div className="relative mb-6">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop"
                 alt="Arthroscopic Surgery"
+                width={120}
+                height={120}
                 className="w-full h-32 object-cover rounded-xl"
               />
               <div className="absolute inset-0 bg-teal-600/20 rounded-xl"></div>
@@ -56,9 +61,11 @@ const Services = () => {
 
           <div className="group bg-gradient-to-br from-white to-purple-50 p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 border border-gray-100">
             <div className="relative mb-6">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop"
                 alt="Spine Surgery"
+                width={120}
+                height={120}
                 className="w-full h-32 object-cover rounded-xl"
               />
               <div className="absolute inset-0 bg-purple-600/20 rounded-xl"></div>
@@ -75,9 +82,11 @@ const Services = () => {
 
           <div className="group bg-gradient-to-br from-white to-orange-50 p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 border border-gray-100">
             <div className="relative mb-6">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop"
                 alt="Endoscopic Surgery"
+                width={120}
+                height={120}
                 className="w-full h-32 object-cover rounded-xl"
               />
               <div className="absolute inset-0 bg-orange-600/20 rounded-xl"></div>
@@ -94,9 +103,11 @@ const Services = () => {
 
           <div className="group bg-gradient-to-br from-white to-green-50 p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 border border-gray-100">
             <div className="relative mb-6">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop"
                 alt="Navigation Surgery"
+                width={120}
+                height={120}
                 className="w-full h-32 object-cover rounded-xl"
               />
               <div className="absolute inset-0 bg-green-600/20 rounded-xl"></div>
@@ -113,9 +124,11 @@ const Services = () => {
 
           <div className="group bg-gradient-to-br from-white to-red-50 p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 border border-gray-100">
             <div className="relative mb-6">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop"
                 alt="Patient Care"
+                width={120}
+                height={120}
                 className="w-full h-32 object-cover rounded-xl"
               />
               <div className="absolute inset-0 bg-red-600/20 rounded-xl"></div>
