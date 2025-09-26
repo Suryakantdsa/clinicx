@@ -113,8 +113,8 @@ const HeroSection = () => {
                     : "translate-y-8 opacity-0"
                 }`}
               >
-                <p className="text-lg lg:text-xl font-bold flex items-center">
-                  <span className="mr-2 text-xl">🌟</span>
+                <p className="text-sm font-bold flex items-center">
+                  <span className="mr-1">🌟</span>
                   Live Young, Live Healthy
                 </p>
               </div>
@@ -157,7 +157,7 @@ const HeroSection = () => {
 
             {/* Enhanced CTA Buttons */}
             <div
-              className={`flex flex-col sm:flex-row gap-4 transition-all duration-700 delay-600 ${
+              className={`flex flex-col sm:flex-row gap-4 -mt-5 transition-all duration-700 delay-600 ${
                 isVisible
                   ? "translate-y-0 opacity-100"
                   : "translate-y-8 opacity-0"
@@ -213,9 +213,9 @@ const HeroSection = () => {
                 : "translate-y-10 opacity-0"
             }`}
           >
-            <div className="relative w-full h-80 lg:h-[500px] rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-500 group">
+            <div className="relative w-full h-80 lg:h-[500px] rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-500 group -mt-56">
               {/* Main Image Container */}
-              <div className="relative w-full h-full">
+              <div className="relative w-full h-full ">
                 <Image
                   src={DrImage}
                   fill
@@ -252,16 +252,6 @@ const HeroSection = () => {
             <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-gradient-to-br from-blue-600 to-blue-700 rounded-full opacity-20 blur-2xl animate-pulse"></div>
             <div className="absolute -top-8 -right-8 w-40 h-40 bg-gradient-to-br from-teal-500 to-teal-600 rounded-full opacity-20 blur-2xl animate-pulse delay-1000"></div>
             <div className="absolute top-1/2 -left-12 w-24 h-24 border-4 border-blue-300 rounded-full opacity-30 animate-spin-slow"></div>
-          </div>
-        </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="flex flex-col items-center space-y-2">
-          <span className="text-sm text-gray-600 font-medium">Scroll Down</span>
-          <div className="w-6 h-10 border-2 border-blue-600 rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-blue-600 rounded-full mt-2 animate-pulse"></div>
           </div>
         </div>
       </div>
