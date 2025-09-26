@@ -13,6 +13,33 @@ import {
 import React, { useState } from "react";
 import DrImage from "../../public/dr_image.png";
 import Image from "next/image";
+/**
+ * 
+ * @returns 
+ * 
+ * // Professional male doctor portraits
+"https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg" // Male doctor in white coat
+"https://images.pexels.com/photos/5327586/pexels-photo-5327586.jpeg" // Senior male doctor smiling
+"https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg" // Male doctor with stethoscope
+"https://images.pexels.com/photos/7089017/pexels-photo-7089017.jpeg" // Male doctor in clinic
+"https://images.pexels.com/photos/8376181/pexels-photo-8376181.jpeg" // Male doctor with arms crossed
+"https://images.pexels.com/photos/7578806/pexels-photo-7578806.jpeg" // Male doctor in professional setting
+
+// Male doctors with patients
+"https://images.pexels.com/photos/6682986/pexels-photo-6682986.jpeg" // Male doctor consulting patient
+"https://images.pexels.com/photos/7088480/pexels-photo-7088480.jpeg" // Male doctor examining patient
+"https://images.pexels.com/photos/7088520/pexels-photo-7088520.jpeg" // Male doctor with senior patient
+
+// Male doctors in surgical/medical settings
+"https://images.pexels.com/photos/6129507/pexels-photo-6129507.jpeg" // Male doctor in hospital
+"https://images.pexels.com/photos/7088485/pexels-photo-7088485.jpeg" // Male doctor with medical equipment
+"https://images.pexels.com/photos/7088475/pexels-photo-7088475.jpeg" // Male doctor writing prescription
+
+// Orthopaedic/surgery specific male doctors
+"https://images.pexels.com/photos/7088488/pexels-photo-7088488.jpeg" // Male doctor with x-ray
+"https://images.pexels.com/photos/7088523/pexels-photo-7088523.jpeg" // Male doctor discussing medical chart
+"https://images.pexels.com/photos/6129503/pexels-photo-6129503.jpeg" // Male doctor in professional attire
+ */
 
 const About = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
@@ -146,7 +173,11 @@ const About = () => {
           <div className="relative group">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src={DrImage}
+                src={
+                  "https://images.pexels.com/photos/7578806/pexels-photo-7578806.jpeg"
+                }
+                width={320}
+                height={320}
                 alt="Modern surgical facility"
                 className="w-full h-80 lg:h-96 object-cover transform group-hover:scale-105 transition-transform duration-700"
               />

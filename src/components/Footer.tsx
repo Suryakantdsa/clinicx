@@ -71,7 +71,7 @@ const Footer = () => {
                 <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full"></div>
               </div>
               <div>
-                <h4 className="text-2xl font-bold text-white bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                <h4 className="text-2xl font-bold text-white bg-gradient-to-r from-white to-gray-300 bg-clip-text ">
                   Dr. Gayadhar Behera
                 </h4>
                 <p className="text-teal-400 font-semibold">
