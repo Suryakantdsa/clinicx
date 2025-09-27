@@ -19,7 +19,7 @@ const ContactUs = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          <div className="space-y-8">
+          {/* <div className="space-y-8">
             <div className="flex items-center space-x-4">
               <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
                 <Phone className="w-6 h-6 text-teal-300" />
@@ -69,7 +69,7 @@ const ContactUs = () => {
                 through advanced orthopaedic and spine care.
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-3xl border border-white/20">
             <h3 className="text-2xl font-bold mb-6">Book Your Consultation</h3>
